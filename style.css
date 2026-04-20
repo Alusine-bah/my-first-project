@@ -55,3 +55,29 @@ li {
     padding: 10px;
     border-radius: 5px;
 }
+nav {
+    background: #333;
+    padding: 10px 0;
+}
+
+.nav-links {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #00adb5;
+}
