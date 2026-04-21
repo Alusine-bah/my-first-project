@@ -185,6 +185,9 @@ section p {
 
 .project-card,
 .blog-card {
+    text-decoration: none;
+    display: block;
+    color: inherit;
     background: #ffffff;
     padding: 22px;
     margin-top: 18px;
