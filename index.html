@@ -1,72 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>My First Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alusine Bah | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <nav>
-    <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+        <div class="nav-container">
+            <div class="logo">Alusine Bah</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <div class="container">
+    <main class="container">
 
-       <section class="hero">
-    <h1>Alusine Bah</h1>
-    <p>A beginner learning Git, GitHub, and web development step by step.</p>
-<div class="hero-buttons">
-    <a href="#projects" class="btn">View My Projects</a>
-    <a href="https://github.com/Alusine-bah" target="_blank" class="btn btn-secondary">Visit My GitHub</a>
-<a href="cv.pdf" target="_blank" class="btn btn-secondary">Download CV</a>
-</div>
+        <section id="hero" class="hero">
+            <div class="hero-text">
+                <p class="intro">Hello, I’m</p>
+                <h1>Alusine Bah</h1>
+                <h2>Aspiring Developer | GitHub Learner | Portfolio Builder</h2>
+                <p class="hero-description">
+                    I am building practical skills in Git, GitHub, web development, and project creation step by step while creating a strong professional portfolio.
+                </p>
 
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View Projects</a>
+                    <a href="https://github.com/Alusine-bah" target="_blank" class="btn btn-secondary">GitHub Profile</a>
+                    <a href="cv.pdf" target="_blank" class="btn btn-secondary">Download CV</a>
+                </div>
+            </div>
 
-        <section>
-  <section id="about">
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Alusine Bah">
+            </div>
+        </section>
 
-    <img src="profile.jpg" alt="My Photo" width="150">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am passionate about learning modern digital tools and building professional projects that combine practical skills, creativity, and continuous improvement. My goal is to develop strong capabilities in GitHub, web development, and educational content creation while presenting my work in a professional way.
+            </p>
+        </section>
 
-    <p>I am a beginner passionate about learning Git, GitHub, and web development. I am building my skills step by step through practical projects and continuous practice.</p>
-</section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">Git & GitHub</div>
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">Portfolio Development</div>
+                <div class="skill-card">Problem Solving</div>
+                <div class="skill-card">Educational Content Writing</div>
+            </div>
+        </section>
 
-    </div>
-<footer>
-    <p>© 2026 Alusine Bah | All Rights Reserved</p>
-</footer>
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project-card">
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    A professional personal website built with HTML, CSS, Git, GitHub, and GitHub Pages to present my profile, projects, blog content, and contact information.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>My First GitHub Project</h3>
+                <p>
+                    A foundational GitHub project where I learned repository creation, file editing, committing changes, pushing code, and hosting a live website online.
+                </p>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Blog / Educational Content</h2>
+
+            <div class="blog-card">
+                <h3>My GitHub Learning Journey</h3>
+                <p>
+                    A reflection on how I started learning GitHub, created my first repository, and gradually built my own live portfolio website.
+                </p>
+            </div>
+
+            <div class="blog-card">
+                <h3>How I Built My First Portfolio Website</h3>
+                <p>
+                    A beginner-friendly write-up explaining the steps I followed to create, style, and publish a portfolio website using GitHub Pages.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me through email or visit my GitHub profile.</p>
+            <p>Email: alusinebah486@gmail.com</p>
+            <p>
+                GitHub:
+                <a href="https://github.com/Alusine-bah" target="_blank">Alusine-bah</a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Alusine Bah | All Rights Reserved</p>
+    </footer>
+
 </body>
-<section>
-    <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>Git & GitHub</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Problem Solving</li>
-        <li>Beginner Web Development</li>
-    </ul>
-</section>
-    
-<section id="projects">
-    <h2>Projects</h2>
-
-    <div class="project-card">
-        <h3>My First GitHub Project</h3>
-        <p>Learned how to create a repository, commit, and push code using GitHub.</p>
-    </div>
-
-    <div class="project-card">
-        <h3>Personal Portfolio Website</h3>
-        <p>Built and deployed a personal website using HTML, CSS, and GitHub Pages.</p>
-    </div>
-
-</section>
-<section id="contact">
-    <h2>Contact</h2>
-    <p>You can reach me through email or visit my GitHub profile.</p>
-    <p>Email: alusinebah486@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/Alusine-bah" target="_blank">Alusine-bah</a></p>
-</section>
+</html>
