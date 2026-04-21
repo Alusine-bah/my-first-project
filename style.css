@@ -164,3 +164,11 @@ footer {
 .btn:hover {
     background: #008c93;
 }
+.btn-secondary {
+    background: #374151;
+    margin-left: 10px;
+}
+
+.btn-secondary:hover {
+    background: #1f2937;
+}
