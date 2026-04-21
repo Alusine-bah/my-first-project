@@ -311,3 +311,11 @@ footer {
     font-size: 17px;
     color: #475569;
 }
+.blog-meta {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2563eb;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
