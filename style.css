@@ -172,3 +172,22 @@ footer {
 .btn-secondary:hover {
     background: #1f2937;
 }
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.hero-buttons .btn {
+    margin: 10px 8px 0 8px;
+}
+
+@media (max-width: 600px) {
+    .hero-buttons .btn {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .btn-secondary {
+        margin-left: 0;
+    }
+}
