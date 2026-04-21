@@ -1,8 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: #eef2f7;
     margin: 0;
     padding: 0;
+    color: #1f2937;
 }
 
 /* Main container */
@@ -22,19 +23,22 @@ h1 {
 /* Sections */
 section {
     background: white;
-    padding: 20px;
+    padding: 25px;
     margin: 20px 0;
-    border-radius: 8px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
 /* Subheadings */
 h2 {
-    color: #555;
+    color: #0f172a;
 }
 
 /* Text */
 p {
     font-size: 18px;
+    line-height: 1.6;
+    color: #475569;
 }
 img {
     display: block;
@@ -106,10 +110,11 @@ footer {
 }
 .hero {
     text-align: center;
-    background: white;
-    padding: 40px 20px;
-    border-radius: 8px;
+    background: linear-gradient(135deg, #ffffff, #e6f0ff);
+    padding: 50px 20px;
+    border-radius: 12px;
     margin: 30px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 .hero h1 {
